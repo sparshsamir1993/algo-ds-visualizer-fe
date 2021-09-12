@@ -1,0 +1,13 @@
+.navbar {
+    position: absolute;
+    max-width: 300px;
+    transition: left .5s ease-in-out;
+    background-color: $primary-color;
+    
+    &.collapsed {
+        left: -300px;
+    }
+    &.expanded  {
+        left: 0;
+    }
+}

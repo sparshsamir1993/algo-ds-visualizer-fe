@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+.top-nav {
+    padding: 16px 0 16px 16px;
+    background-color: $primary-color;
+}
+.container {
+    padding-left: 16px;
+    max-width: calc(100% - 200px);
+    margin: 0 auto;
+}
+.full-input {
+    width: 100%;
+}
+.primary-btn {
+    margin: 24px 0 0 0 ;
+}
